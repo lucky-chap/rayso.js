@@ -1,0 +1,24 @@
+{
+  "name": "rayso-api",
+  "version": "1.0.0",
+  "description": "API for creating beautiful images of your code using Ray.so (Unofficial)",
+  "main": "index.js",
+  "homepage": "https://github.com/lucky-chap/rayso-api#readme",
+  "repository": "https://github.com/lucky-chap/rayso-api#readme",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "ray.so",
+    "snippet",
+    "code picture",
+    "api",
+    "carbon",
+    "sniply"
+  ],
+  "author": "Quavo Huncho <hunchodotdev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer-core": "^15.4.0"
+  }
+}
