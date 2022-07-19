@@ -1,8 +1,12 @@
 # Ray.so API / Library 🎉✨
 
-[![logotype](images/ray-banner.png)](https://npmjs.com/package/rayso.js)
+[![logotype](ray.png)](https://npmjs.com/package/rayso.js)
 
 This is an unofficial Node API for [ray.so](https://ray.so) that turns your code into beautiful images. Get all the features you need from ray.so without actually going there.
+
+## Documentation
+
+You can find the Documentation with examples here: [rayso.js](https://raysojs.vercel.app)
 
 ## Navigation
 
@@ -74,108 +78,6 @@ const raySo = new RaySo({
 | `browserPath`  | `"C:\Program Files\ Google\Chrome\Application \chrome.exe"` | String           | Local path to the browser (Chrome). You can leave it, if it's your home PC and you have Chrome installed.                                      |
 | `debug`        | `false `                                                    | Boolean          | If enabled, it will show messages in the console during code execution.                                                                        |
 
-## Examples
-
-### Default output
-
-```javascript
-const RaySo = require('rayso.js');
-const raySo = new RaySo();
-```
-
-[![output](images/ray-default.png)](https://npmjs.com/package/rayso.js)
-
-### Custom parameters
-
-```javascript
-const RaySo = require('rayso.js');
-const raySo = new RaySo({
-	title: 'Torpedo',
-	theme: 'candy',
-	padding: 32,
-	language: 'javascript',
-	localPreview: true,
-});
-```
-
-[![output](images/ray-custom.png)](https://npmjs.com/package/rayso.js)
-
-### Output without background
-
-```javascript
-const RaySo = require('rayso.js');
-const raySo = new RaySo({ background: false });
-```
-
-[![output](images/ray-nobg.png)](https://npmjs.com/package/rayso.js)
-
-## Themes
-
-These are all the available themes, so far. As soon Ray.So has a new theme, it will appear here. Default theme `breeze` is not listed here, you saw it in the first picture of this README.
-
-### Candy
-
-```javascript
-const RaySo = require('rayso.js');
-const raySo = new RaySo({ theme: 'candy' });
-```
-
-[![candy](images/ray-candy.png)](https://npmjs.com/package/rayso.js)
-
-### Crimson
-
-```javascript
-const RaySo = require('rayso.js');
-const raySo = new RaySo({ theme: 'crimson' });
-```
-
-[![crimson](images/ray-crimson.png)](https://npmjs.com/package/rayso.js)
-
-### Falcon
-
-```javascript
-const RaySo = require('rayso.js');
-const raySo = new RaySo({ theme: 'falcon' });
-```
-
-[![falcon](images/ray-falcon.png)](https://npmjs.com/package/rayso.js)
-
-### Meadow
-
-```javascript
-const RaySo = require('rayso.js');
-const raySo = new RaySo({ theme: 'meadow' });
-```
-
-[![meadow](images/ray-meadow.png)](https://npmjs.com/package/rayso.js)
-
-### Midnight
-
-```javascript
-const RaySo = require('rayso.js');
-const raySo = new RaySo({ theme: 'midnight' });
-```
-
-[![midnight](images/ray-midnight.png)](https://npmjs.com/package/rayso.js)
-
-### Raindrop
-
-```javascript
-const RaySo = require('rayso.js');
-const raySo = new RaySo({ theme: 'raindrop' });
-```
-
-[![raindrop](images/ray-raindrop.png](https://npmjs.com/package/rayso.js)
-
-### Sunset
-
-```javascript
-const RaySo = require('rayso.js');
-const raySo = new RaySo({ theme: 'sunset' });
-```
-
-[![sunset](images/ray-sunset.png)](https://npmjs.com/package/rayso.js)
-
-## Credits
+## Useful links
 
 - [Ray.so](https://ray.so)
